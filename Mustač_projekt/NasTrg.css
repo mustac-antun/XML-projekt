@@ -1,0 +1,183 @@
+
+header {
+    width: 100%;
+    background: red;
+    color:black;
+    font-size: large;
+    padding-top: 5px;
+    
+  }
+  nav{
+    width: 10%;
+    position: fixed;
+	bottom: 10%;
+    right:0;
+    border: 2px solid red;
+    background-color:black;
+    color: red ;
+    text-align: center;
+   
+}
+  .container{
+      max-width: 100%;
+      text-align: center;
+  }
+ .tablica{
+     margin-left: 30%;
+     }
+section.top{
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+    padding-top: 50px;
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+body{
+    width: 100%;
+    background-image: url(images/mordor.png) ;
+}
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+    height: fit-content;
+    color:black;
+    background-color: red;
+    text-align: center;
+} 
+section.bottom{
+    max-width: 100%;
+      text-align: center;
+      margin-left: 20%;
+      margin-right: 20%;
+      width:60%;
+      padding-bottom: 20px;
+}
+.container{
+    max-width: 100%;
+    max-height: 100%;
+}
+img{
+    max-width: 100%;
+    
+}
+
+#footer {
+    height:40px ;
+    font-size: smaller;
+    background: red;
+    color: black;
+    text-align: center;
+    
+    
+  }
+
+  .banner {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url("images/gondor2.jpg");
+
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    align-items: center;
+    }
+    .banner p{
+    
+    margin:0 auto;
+    color:red;
+    font-size: 100px ;
+    font-weight: bolder;
+    
+    
+    }
+img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+span{
+    font-size: xx-large ;
+    font-weight: bolder;
+}
+
+
+header a:link,  {
+background-color: red;
+color:black;
+text-decoration:none;
+
+}
+header a:visited{
+background-color: red;
+color:black;
+text-decoration:none;
+}
+header a:hover {
+color:red;
+background-color: black;  
+text-decoration:none;
+}
+
+section a:link  {
+background-color: black;
+color:red;
+text-decoration:none;
+
+}
+section a:hover {
+color:black;
+background-color: red;  
+text-decoration:none;
+}
+section a:visited {
+background-color: black;
+color:red;
+text-decoration:none;
+}
+a:link  {
+background-color: red;
+color:black;
+text-decoration:none;
+
+}
+a:hover {
+color:red;
+background-color: black;  
+text-decoration:none;
+}
+a:visited {
+background-color: red;
+color:black;
+text-decoration:none;
+}
+
+
+
+
+    #footer {
+        height:40px ;
+        font-size: smaller;
+        background: red;
+        color: black;
+        text-align: center;
+      }
+      .row{
+        margin-top: 5px;
+    }
+  @media (max-width: 991px){
+      header{
+          height:150px;
+          padding:10px;
+
+      }
+    }
+
+
+
+

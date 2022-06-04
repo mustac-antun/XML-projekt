@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='Knjige.xsl'?>
+<Knjige>
+    <knjiga redbr="1">
+        <title>Beren and Luthiel</title>
+        <staracijena>20€</staracijena>
+        <popust>50%</popust>
+        <novacijena>10€</novacijena>
+        <godinaizdanja>2017</godinaizdanja>
+    </knjiga>
+
+    <knjiga redbr="2">
+        <title>The Silmarillion: 30th Anniversary</title>
+        <staracijena>50€</staracijena>
+        <popust>40%</popust>
+        <novacijena>30€</novacijena>
+        <godinaizdanja>2007</godinaizdanja>
+    </knjiga>
+
+    <knjiga redbr="3">
+        <title>The Lord of the Rings</title>
+        <staracijena>20€</staracijena>
+        <popust>50%</popust>
+        <novacijena>10€</novacijena>
+        <godinaizdanja>2019</godinaizdanja>
+    </knjiga>
+
+    <knjiga redbr="4">
+        <title>The Complete History of Middle-earth: Boxed Set</title>
+        <staracijena>150€</staracijena>
+        <popust>30%</popust>
+        <novacijena>105€</novacijena>
+        <godinaizdanja>2019</godinaizdanja>
+    </knjiga>
+
+    <knjiga redbr="5">
+        <title>The Hobbit</title>
+        <staracijena>10€</staracijena>
+        <popust>50%</popust>
+        <novacijena>5€</novacijena>
+        <godinaizdanja>2015</godinaizdanja>
+    </knjiga>
+
+    <knjiga redbr="6">
+        <title>A Secret Vice: Tolkien on Invented Languages</title>
+        <staracijena>12€</staracijena>
+        <popust>50%</popust>
+        <novacijena>6€</novacijena>
+        <godinaizdanja>2019</godinaizdanja>
+    </knjiga>
+
+    <knjiga redbr="7">
+        <title>Beowulf: A Translation and Commentary, together with Sellic Spell</title>
+        <staracijena>8€</staracijena>
+        <popust>50%</popust>
+        <novacijena>4€</novacijena>
+        <godinaizdanja>2016</godinaizdanja>
+    </knjiga>
+
+    <knjiga redbr="8">
+        <title>J. R. R. Tolkien: Artist and Illustrator</title>
+        <staracijena>20€</staracijena>
+        <popust>40%</popust>
+        <novacijena>16€</novacijena>
+        <godinaizdanja>2014</godinaizdanja>
+    </knjiga>
+
+
+    
+</Knjige>

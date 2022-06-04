@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Stil.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+       
+        <script>
+            $(document).ready(function(){
+            var xml;
+            $('.button').click(function(){
+                 $.get('users.xml', null, function (data, textStatus) {
+                     xml=data;
+                      $(xml).find('user').each( function(){
+                          var item = $(this);
+          
+                          if(item.find('username').text()==$('#ime').val() && item.find('password').text()==$('#sifra').val())
+                          {
+                              window.open('Naslovnica.html');
+                              location.reload();
+                          }
+          
+                          else {
+                            document.getElementById("error").innerHTML="Invalid"; 
+                            var polje=document.getElementById("error");
+                                polje.style.color="blue";
+          
+                          }
+                     });
+                  });
+              });
+          });
+          </script>
+          
+          </head>
+          <body>
+          
+        
+            <h1>Login</h1>
+            <form >
+              <div >
+                <label>Username</label>
+                <span></span>
+                <input type="text" id="ime" name="username" required>
+              </div>
+              <br>
+              <div>
+                <label>Password  </label>
+                <span></span>
+                <input type="password" id="sifra" name="password" required>
+              </div>
+              <p id="error"></p>
+              <input type="button" value="login" class="button">
+            </form>
+        
+          
+          </body>
+          </html>
